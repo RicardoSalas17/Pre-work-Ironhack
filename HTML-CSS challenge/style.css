@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400&display=swap');
+
+*{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    word-spacing: 0px;
+  }
+
+a:link {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+a:active {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: none;
+  }
+
+body{
+    height: auto;
+    margin: auto;
+  }
+nav {
+    background-color: #C12127;
+    color: white;
+    padding: 16px 0 0 0;
+    height: 40px;
+  }
+  
+  nav a {
+    color: white;
+
+  }
+
+  .heart{
+    padding-right:10px; 
+    padding-left: 10px;
+  }
+
+  .top-left{
+    padding: 0 0 0 5px;
+    margin: 0 20px 0 0;
+    float: left;
+
+  }
+
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  header{
+      background-image: url(images/city-scape.png);
+      background-size: 2500px 580px;
+      background-position-x: -480px;
+      background-position-y: -40px;
+      height: 530px;
+      width: auto;
+      margin: 0px;
+  }
+
+  .npmLog{
+      padding: 10px;
+      float: left;
+  }
+
+  .search{
+    height: 40px !important;
+    width: 1020px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    background: #1F5371;
+    margin-top: 10px;
+    border:1px solid #416D8C;
+  }
+
+  .icon-search:before {
+    content: "\e986";
+    padding: 10px 0px 10px 10px;
+    height: 18px !important;
+    width: 31px;
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    background: #1F5371;
+    margin-top: 10px;
+    border: 1px solid #416D8C;
+    color:white;
+    justify-content: center;
+  }
+
+  .oso{
+    display: inline-block;
+    float: left;
+    padding: 10px 5px 0 5px;
+  }
+
+  .singUpbut{
+    display: inline-block;
+    float: left;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    font-size: 11px;
+    padding-right: 0;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: 400
+  }
+
+  .containeruno{
+    padding: 140px 0 0 150px;
+    margin:0;
+  }
+
+  h1{
+      margin: auto;
+      width: auto;
+      color: white;
+      font-size: 55px;
+      letter-spacing: 3px;
+  }
+
+  .pheader{
+      padding-top: 20px;
+      padding-right: 40px;
+      color: white;
+      font-size: 20px;
+  }
+
+  .buthead{
+      font-size: 15px;
+      color: white;
+      border-radius: 15px;
+      background-color: #F19321;
+      margin: 20px 0px 0px 5px;
+      padding: 10px;
+      border-color: #F19321;
+  }
+
+  .container{
+    height: 530px;
+    width: auto;
+  }
+
+  .sectUno{
+    background-color: rgb(39, 53, 71);
+    color: white;
+
+
+  }
+
+.imageUno{
+    padding: 110px 0 0 10%;
+  }
+
+.conteniUno{
+    display: inline-block;
+    float: right;
+    margin: 0 100px 0 0;
+
+  }
+
+.conteniUno h2{
+    padding: 120px 10px 0px 0px;
+    font-size: 30px;
+  }
+
+.butUno{
+    font-size: 15px;
+    background-color:rgb(203, 56, 55);
+    border-radius: 15px;
+    margin: 20px 0px 0px 5px;
+    padding: 10px;
+    color: white;
+    border-color:rgb(203, 56, 55);
+  }
+
+.sectdos{
+    background-image: url(images/forklift.png);
+    background-position: center;
+    color: white;
+    background-size: cover;
+
+  }
+
+.conteniDos{
+    padding: 0 0 0 80px;
+  }
+
+  .conteniDos h2{
+      margin: 0;
+      padding: 120px 10px 0px 0px;
+      font-size: 30px;
+  }
+
+  .butDos{
+    font-size: 15px;
+    background-color:rgb(49, 68, 88);
+    border-radius: 15px;
+    margin: 20px 0px 0px 5px;
+    padding: 10px;
+    color: white;
+    border-color:rgb(49, 68, 88)
+  }
+
+  .sectTres{
+    height: 450px;
+    width: auto;
+    margin: 0;
+  }
+
+  .conteniTres{
+      padding: 30px;
+  }
+
+  .conteniTres h2{
+      padding: 15px 0 0 300px;
+  }
+  .conteniTres p {
+    padding: 15px 0 0 190px;
+  }
+
+  .cajaUno{
+    float: left;
+    margin: 30px 68.5px;
+  }
+
+  .cajaUno img{
+    padding: 0 0 0 100px;
+  }
+
+  .cajaUno h3{
+      margin: 0 0 10px 140px
+
+  }
+
+  .cajaUno p{
+    color: rgb(135, 145, 156);
+    text-align: center;
+  }
+
+  .cajaUno a{
+      color: rgb(208, 74, 73);
+  }
+
+.cajaDos{
+    float: left;
+    margin: 30px 68.5px;
+
+}
+
+  .cajaDos img{
+    padding: 0 0 0 100px;
+  }
+
+  .cajaDos h3{
+    margin: 0 0 10px 117px
+
+  }
+
+  .cajaDos p{
+    color: rgb(135, 145, 156);
+    text-align: center;
+  }
+
+  .cajaTres{
+    float: left;
+    margin: 30px 68.5px;
+
+  }
+
+  .cajaTres img{
+    padding: 0 0 0 100px;
+  }
+
+  .cajaTres h3{
+    margin: 0 0 10px 135px
+  }
+
+.cajaTres p{
+    color: rgb(135, 145, 156);
+    text-align: center;
+  }
